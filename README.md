@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is template of basic container for development using SAP CAPir approach. This can be donwloaded from git Hub into your workspace and enriched by your CDS projects by following recomendations of [SAP CAP](https://cap.cloud.sap/docs/about/).
+This is template of basic container for development using SAP CAPir approach. This can be donwloaded from git Hub into your workspace and enriched by your CDS projects whihc follows to recomendations from [SAP CAP](https://cap.cloud.sap/docs/about/).
 
 Initial container includes:
 
