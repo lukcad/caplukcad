@@ -7,5 +7,5 @@ RUN apt-get update && apt-get -y install --no-install-recommends curl git sqlite
 # Install SAP CAP SDK globally by using user node. 
 # User `node` is created for 20 variant of miscosoft development docker
 USER node
-RUN npm install -g #sap/cds-dk
+RUN npm install -g @sap/cds-dk
 WORKDIR /home/node
