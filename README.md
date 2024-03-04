@@ -2,9 +2,9 @@
 
 ## Overview
 
-This is template of basic container for development using SAP CAPir approach. This can be donwloaded from git Hub into your workspace and enriched by your code.
+This is template of basic container for development using SAP CAPir approach. This can be donwloaded from git Hub into your workspace and enriched by your CDS projects by following recomendations of [SAP CAP](https://cap.cloud.sap/docs/about/).
 
-Initial code includes:
+Initial container includes:
 
 * container with node.js;
 * install of components: curl, git, sqlite3;
@@ -17,6 +17,17 @@ Initial code includes:
   * qwtel.sqlite-viewer
   * mechatroner.rainbow-csv
 
+You should clone this by command to provide your own name of docker container project:
 
-You should open it by `VS code` as `contianer`.
+    git clone https://github.com/lukcad/caplukcad.git <your_name_container_project>
 
+
+You should open it by `VS code` as `contianer` and add into it as many as you wish CDS projects.
+
+Use this command to add new project in container:
+
+    cds init <your_name_project>
+
+Use this command to add mock data into your new created project:
+
+    cds add tiny-sample
