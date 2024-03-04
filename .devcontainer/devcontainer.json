@@ -1,0 +1,24 @@
+{
+  "name": "SAP CAP - dev container by lukcad",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "args": { "VARIANT": "20" }
+  },
+  "customizations": {
+    "vscode": {
+	    // Add the IDs of extensions you want installed when the container is created.
+      // first five extenstions which lukcad took from page https://cap.cloud.sap/docs/get-started/jumpstart#_6-install-visual-studio-code
+      "extensions": [
+        "SAPSE.vscode-cds",
+        "dbaeumer.vscode-eslint",
+        "humao.rest-client",
+        "qwtel.sqlite-viewer",
+        "mechatroner.rainbow-csv"
+      ]
+    }
+  },
+  // Use 'forwardPorts' to make a list of ports inside the container available locally.
+  "forwardPorts": [ 4004 ],
+  // Use this user to connect as a non-root user. See https://aka.ms/vscode-remote/containers/non-root.
+  "remoteUser": "node"
+}
