@@ -31,3 +31,7 @@ Use this command to add new project in container:
 Use this command to add mock data into your new created project:
 
     cds add tiny-sample
+
+or
+
+    cds add data
