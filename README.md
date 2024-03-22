@@ -16,7 +16,9 @@ Initial container includes:
   * humao.rest-client
   * qwtel.sqlite-viewer
   * mechatroner.rainbow-csv
-
+* installing globally during initializaiton container these libraries:
+  * cds
+  
 You should clone this by command to provide your own name of docker container project:
 
     git clone https://github.com/lukcad/caplukcad.git <your_name_container_project>
